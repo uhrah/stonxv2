@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>돌 자르기 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="info">
+            <div id="level">레벨: <span id="level-number">1</span></div>
+            <div id="score">점수: <span id="score-number">0</span></div>
+        </div>
+        <div id="upgrade-chance-container">
+            <div id="upgrade-chance">다음 업그레이드 확률: <span id="upgrade-chance-number">100%</span></div>
+        </div>
+        <div id="stone-container">
+            <div id="stone"></div>
+            <div id="break-effect"></div>
+            <div id="damage-indicator"></div>
+        </div>
+        <div id="knife-container">
+            <div id="knife">
+                <span id="upgrade-level">+0</span>
+            </div>
+            <div id="upgrade-count">강화: <span id="upgrade-count-number">+0</span></div>
+            <div id="upgrade-result"></div>
+        </div>
+        <button id="cut-button">자르기</button>
+        <button id="upgrade-button">업그레이드</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
